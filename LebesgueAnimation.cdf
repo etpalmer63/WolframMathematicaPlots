@@ -23,10 +23,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[      1064,         20]
-NotebookDataLength[      8295,        222]
-NotebookOptionsPosition[      8673,        213]
-NotebookOutlinePosition[      9190,        233]
-CellTagsIndexPosition[      9147,        230]
+NotebookDataLength[      8417,        224]
+NotebookOptionsPosition[      8742,        214]
+NotebookOutlinePosition[      9311,        235]
+CellTagsIndexPosition[      9268,        232]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -36,7 +36,8 @@ Code for interactive example of Lebesgue integral. Notice the \
 \[OpenCurlyDoubleQuote]slices\[CloseCurlyDoubleQuote] are taken horizontally. \
 This is in contrast with Riemann sums which are slices horizontally. To \
 change the function being integrated, edit fun[x_]. To play as a movie, click \
-the plus button next to the slider. 
+the plus button next to the slider. Also note dynamic updating in the \
+evaluation menu must be enabled. 
 Enjoy!
 Erik Palmer \
 \>", "Text"],
@@ -212,6 +213,7 @@ $CellContext`fun[$CellContext`x] > $CellContext`maxe},
 }, Open  ]]
 },
 WindowSize->{1018, 805},
+WindowMargins->{{123, Automatic}, {Automatic, 60}},
 Visible->True,
 ScrollingOptions->{"VerticalScrollRange"->Fit},
 PrivateNotebookOptions->{"VersionedStylesheet"->{"Default.nb"[8.] -> False}},
@@ -232,15 +234,13 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[1464, 33, 378, 8, 87, "Text"],
+Cell[1464, 33, 447, 9, 106, "Text"],
 Cell[CellGroupData[{
-Cell[1867, 45, 4051, 108, 493, "Input"],
-Cell[5921, 155, 2736, 55, 348, "Output"]
+Cell[1936, 46, 4051, 108, 465, "Input"],
+Cell[5990, 156, 2736, 55, 348, "Output"]
 }, Open  ]]
 }
 ]
 *)
 
-(* End of internal cache information *)
-
-(* NotebookSignature 0v0pNvlZ4dP2SCKXnAcSRkpe *)
+(* NotebookSignature VxpjZnYgsswb7AwmnxATkHO4 *)
